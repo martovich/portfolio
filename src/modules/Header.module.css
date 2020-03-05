@@ -1,4 +1,19 @@
 .header {
     height: 60px;
     background-color: #759dff;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    /*border: 1px solid;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
