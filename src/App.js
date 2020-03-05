@@ -10,13 +10,15 @@ import Footer from "./components/Footer";
 
 const App = () => (
     <div className='App'>
-        <Header />
-        <Main />
-        <Skills />
-        <Projects />
-        <Slogan />
-        <Contacts />
-        <Footer />
+        <div className='portfolio'>
+            <Header/>
+            <Main/>
+            <Skills/>
+            <Projects/>
+            <Slogan/>
+            <Contacts/>
+            <Footer/>
+        </div>
     </div>
 );
 export default App;
