@@ -1,11 +1,11 @@
 import React from 'react';
 import s from './Header.module.css';
-import Nav from "../nav/Nav";
+import NavHeader from "../nav/navHeader/NavHeader";
 
 const Header = () => (
     <div className={s.header}>
         <div className={s.container}>
-            <Nav />
+            <NavHeader />
         </div>
     </div>
 );

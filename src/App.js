@@ -4,7 +4,7 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
-import Slogan from "./slogan/Slogan";
+import Remote from "./remote/Remote";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 
@@ -15,7 +15,7 @@ const App = () => (
             <Main/>
             <Skills/>
             <Projects/>
-            <Slogan/>
+            <Remote/>
             <Contacts/>
             <Footer/>
         </div>

@@ -5,7 +5,7 @@ import Skill from "./skill/Skill";
 const Skills = () => (
     <div className={s.skillsBlock}>
         <div className={s.container}>
-            <h2 className={s.title}>Skills</h2>
+            <h2 className={s.title}>Мои скиллы</h2>
             <div className={s.skills}>
                 <Skill title='js'
                        description='Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, nemo!'/>

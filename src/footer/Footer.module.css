@@ -1,4 +1,18 @@
-.footer {
-    height: 300px;
+.footerBlock {
+    height: 150px;
     background-color: #a7ff9c;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.linksSocial{
+
 }
