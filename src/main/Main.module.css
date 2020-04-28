@@ -10,10 +10,14 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 .greeating {
     display: flex;
     flex-direction: column;
+    background-color: #b8b7c6;
 }
 .photo {
     height: 400px;

@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from "../modules/Slogan.module.css";
+import s from "./Slogan.module.css";
 
 const Slogan = () => (
-    <div className={styles.slogan}>
+    <div className={s.slogan}>
     </div>
 );
 export default Slogan;

@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Slogan from "./components/Slogan";
-import Contacts from "./components/Contacts";
-import Footer from "./components/Footer";
+import Header from "./header/Header";
+import Main from "./main/Main";
+import Skills from "./skills/Skills";
+import Projects from "./projects/Projects";
+import Slogan from "./slogan/Slogan";
+import Contacts from "./contacts/Contacts";
+import Footer from "./footer/Footer";
 
 const App = () => (
     <div className='App'>
